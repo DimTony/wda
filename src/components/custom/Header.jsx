@@ -19,12 +19,14 @@ const Header = () => {
         px="91.5px"
         py="16px"
       >
-        <HStack>
-          <Image src="/icons/wda-fav-color.svg" h="56px" w="auto" />
-          <Text w="6rem" fontSize="12px" fontWeight="600" lineHeight="1.1">
-            L.A. County Wildfire Disaster Assistance
-          </Text>
-        </HStack>
+        <Link to="/">
+          <HStack>
+            <Image src="/icons/wda-fav-color.svg" h="56px" w="auto" />
+            <Text w="6rem" fontSize="12px" fontWeight="600" lineHeight="1.1">
+              L.A. County Wildfire Disaster Assistance
+            </Text>
+          </HStack>
+        </Link>
         <VStack alignItems="flex-end">
           <Button borderRadius="0" fontSize="1rem" bg="#3B73B9">
             Español

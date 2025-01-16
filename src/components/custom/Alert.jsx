@@ -10,8 +10,8 @@ const Alert = () => {
           <HStack h="100%" w="100%" px="28px" bg="rgba(59, 115, 185, 0.5)">
             <Image src="/icons/info.svg" />
             <Text fontWeight="600" color="#101828">
-              WDA has received additional funding and resumed disaster loan
-              offers.
+              WDA has received additional funding and resumed disaster
+              assistance offers.
             </Text>
           </HStack>
         </HStack>
